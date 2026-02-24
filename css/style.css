@@ -106,19 +106,85 @@ div.card {
     align-items: center;
     padding: 50px;
     font-size: 1em;
-    justify-content: space-between;
-    height: 230px;
+    justify-content: space-evenly;
+    height: 200px;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(58, 58, 58, 0.07), 0 6px 20px 0 rgba(58, 58, 58, 0.07);
 }
 
-p.card-title {
+span.card-title {
     color: #2e5d33;
     font-weight: 500;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 div.card img {
     width: 60%;
+}
+
+div.materias-reciclaveis {
+    padding: 50px;
+
+}
+
+div.materias-reciclaveis h5{
+    color: #2e5d33;
+    font-size: 3em;
+    text-align: center;
+}
+
+div.materiais-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+div.materiais-cards {
+    display: flex;
+    align-items: center;
+    min-width: 800px;
+    background-color: #e3f2fd;
+    padding: 20px;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(169, 169, 169, 0.055), 0 6px 20px 0 rgba(148, 148, 148, 0.027);
+    border: 0.5px solid rgba(123, 123, 123, 0.07);
+}
+
+div.materiais-cards:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+div.materiais-cards:nth-child(2){
+    background-color: #fdecea;
+}
+
+div.materiais-cards:nth-child(3){
+    background-color: #e8f5e9;
+}
+
+div.materiais-cards:nth-child(4){
+    background-color: #fff8e1;
+}
+
+div.materiais-cards img{
+    width: 15%;
+}
+
+div.materiais-txt {
+    text-align: center;
+    max-width: 400px;
+
+}
+
+div.materiais-txt span{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div.materiais-txt p{
+    margin-top: 10px;
 }
